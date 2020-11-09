@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Agenda Etec.exe" version="1.0.0.147" publicKeyToken="577e482f9550fdcf" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Agenda.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Agenda Etec" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Agenda Etec.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Agenda Etec.exe" size="478160">
+      <assemblyIdentity name="Agenda Etec" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QDoi+BT52EcCO68AUS3tB4oW+pmJFEOYV4C06UBwuYw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="424448">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Agenda Etec.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Agenda.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/XK0VbJOs4YbzCdWz30wjsgBufPNb396y8mvbzqcc+E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Fechar.png" size="1108">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0p//2b3pIif97ETrRw6m+DrP+R1FdSxAPmE55ScoZ2g=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Leandro-PC\Leandro" issuerKeyHash="cca2eb851dee91f2a3d05c2dfbfc2ef060e27713" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0lunhn7PDIJmgxYdHAGzScy+jt+m1GuxocF9BX/Ft14=</DigestValue></Reference></SignedInfo><SignatureValue>YywwBQAJMfv3aZaRG5TP/nJBlYhZoV/3JTvXkfsglQyD/8vtIma5ejDI7Xp/iqZ9x493vl37bm/ZRo0Tl0/JGQxwTqaN8RNQehu2xlhmbPo/c8i+64H/KcLeONtXSVAYuvF/yrFHK5+Al8BoYEjVx4pBwZXlaq6xIK1WdG94uOc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u57atya8aXvk72B1BCghjTVKZM/S5TuAiqsWylP9LZxS0a2ZXk195MwmM9TWAMVe+p2BeCe6bPhdmaWF+kTcKwaTD2WkzPRO8QjXP5s1skgE78TeTWLev8Kbc5TrmnfF9xPyXoepjg8QbWUXUaXciT3KuOtYyjM7kAoKdmnDTRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5eb7c57f057dc1a1b16bd4a6df8ebecc49b3011c1d168366820ccf7e86a75bd2" Description="" Url=""><as:assemblyIdentity name="Agenda Etec.exe" version="1.0.0.147" publicKeyToken="577e482f9550fdcf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Leandro-PC\Leandro</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MOrCD3cnLqylwwspot6tZBS2zPDX8CtYm8uaJVTg8iY=</DigestValue></Reference></SignedInfo><SignatureValue>ak17RUuunaWwPJtx8ZGtYfwotX3XS/5+Ws3595qOS0AIi/WKkbj2uf/PFhnsRkJmU2lzTBT7d+R6NPkYzY6WH83jzr6cVENNy7AXVTSMYkNj2tVI1t5i5huA/3ocgxVg6QRIYKkLPuGQyCNOn5T1FOiGdjGpmra6Qzci4VEXZIs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u57atya8aXvk72B1BCghjTVKZM/S5TuAiqsWylP9LZxS0a2ZXk195MwmM9TWAMVe+p2BeCe6bPhdmaWF+kTcKwaTD2WkzPRO8QjXP5s1skgE78TeTWLev8Kbc5TrmnfF9xPyXoepjg8QbWUXUaXciT3KuOtYyjM7kAoKdmnDTRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQd0AsCapzobBETOiUTQoROjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABlAGEAbgBkAHIAbwAtAFAAQwBcAEwAZQBhAG4AZAByAG8wHhcNMjAwNjAyMjIwNjQ1WhcNMjEwNjAzMDQwNjQ1WjAvMS0wKwYDVQQDHiQATABlAGEAbgBkAHIAbwAtAFAAQwBcAEwAZQBhAG4AZAByAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALue2rcmvGl75O9gdQQoIY01SmTP0uU7gIqrFspT/S2cUtGtmV5NfeTMJjPU1gDFXvqdgXgnumz4XZmlhfpE3CsGkw9lpMz0TvEI1z+bNbJIBO/E3k1i3r/Cm3OU65p3xfcT8l6HqY4PEG1lF1Gl3Ik9yrjrWMozO5AKCnZpw00RAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAUMueIgnJbU6DpiUWiJB2zF2zivwcv2x2NYiin6gWeVGP+18etAYdX4UbIogSEGrbeNFRPZ21nt/NuLxszjVingXGG5gHr+7edFxiQGs4PbNkZ2YZv3ZOH1zkmoEffIPoyvVtfhdoVKzqO7fK47nS23/gldFq5sKWu47AsWGRp7I=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
